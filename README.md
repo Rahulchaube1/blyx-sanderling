@@ -1,10 +1,14 @@
-<img src="assets/logo.png" width="112" height="112" alt="Sanderling logo">
+<img src="assets/logo.png" width="112" height="112" alt="A silver-white sanderling runs on short dark legs.">
 
 # Sanderling
 
 Choose a cache serving mode from stored age, local elapsed time and grace policy. This Blyx workflow framework is part of the networking and cache control collection.
 
 Starting freshness at zero on every cache hop can keep stale content alive. Carry the stored age forward before applying grace. [IETF RFC 9111, freshness](https://www.rfc-editor.org/rfc/rfc9111.html#section-4.2)
+
+## Editor extension
+
+Install **RahulChaube.blyx-sanderling** to run the worked example and use the framework’s function completions in a Blyx file. Open an empty `.blyx` file, enter `blyx-sanderling-demo`, then choose **Blyx: Run File**. [Editor downloads](https://www.blyx-lang.space/packages/sanderling#editor) · [Download the extension](https://github.com/Rahulchaube1/blyxxxx/releases/download/framework-editors-v0.1.0/blyx-sanderling-0.1.0.vsix) · [Starter with framework source](https://github.com/Rahulchaube1/blyxxxx/releases/download/framework-editors-v0.1.0/blyx-sanderling-starter-0.1.0.zip)
 
 ## Install and run
 
@@ -87,7 +91,7 @@ This release includes identical copies of both library modules so a tagged clone
 
 ## Verification and contributions
 
-The regression suite in [tests.blyx](tests.blyx) checks the example, boundary cases and invalid inputs. Include a short reproducer and your compiler version in [an issue](https://github.com/Rahulchaube1/blyx-sanderling/issues). The source is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE). The package artwork uses [Lucide icons](https://lucide.dev/license); see [artwork notices](assets/NOTICE.txt).
+The regression suite in [tests.blyx](tests.blyx) checks the example, boundary cases and invalid inputs. Include a short reproducer and your compiler version in [an issue](https://github.com/Rahulchaube1/blyx-sanderling/issues). The source is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE). The [artwork notice](assets/NOTICE.txt) records credits for earlier editions.
 
 ## Connect with Rahul Chaube
 

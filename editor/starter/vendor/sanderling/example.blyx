@@ -1,0 +1,17 @@
+use sanderling;
+
+fn main() {
+    let age_at_store = 8.0;
+    let stored = 100.0;
+    let now = 105.0;
+    let lifetime = 10.0;
+    let grace = 6.0;
+    let mandatory = 0.0;
+    let result = sanderling_lookup(age_at_store, stored, now, lifetime, grace, mandatory);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
